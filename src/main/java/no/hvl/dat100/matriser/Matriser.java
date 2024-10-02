@@ -33,7 +33,7 @@ public class Matriser {
 		int[][] nyMatrise = new int[matrise.length][matrise[0].length];
 		
 		for (int i = 0; i < matrise.length; i++) {
-			for (int j = 0; i < matrise[i].length; j++) {
+			for (int j = 0; j < matrise[i].length; j++) {
 				nyMatrise[i][j] = matrise[i][j] * tall;
 			}
 		}
@@ -48,7 +48,7 @@ public class Matriser {
 			return false;
 		}
 		for (int i = 0; i < a.length; i++) {
-			for (int j = 0; i < a[i].length; j++) {
+			for (int j = 0; j < a[i].length; j++) {
 				if (a[i][j] != b[i][j]) {
 				return false;
 			}
